@@ -1,0 +1,16 @@
+#enumeracja
+#dla pętli for tuple 
+
+workDays = [19,20,22,21,20,22]
+
+print(workDays)
+
+# out : [19, 20, 22, 21, 20, 22]
+
+enumeratedWorkDays = list(enumerate(workDays))
+print (enumeratedWorkDays)
+
+#out : [(0, 19), (1, 20), (2, 22), (3, 21), (4, 20), (5, 22)]
+
+for positon, value in enumeratedWorkDays:
+    print('For position :', positon, 'Value is :', value)
